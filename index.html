@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="timer-box">
+      <div class="timer" id="timer">0</div>
+    </div>
+    <div class="container">
+      <div class="type-display" id="typeDisplay">type</div>
+      <textarea id="typeInput" class="type-input" autofocus>type</textarea>
+      <a href="#" onclick="location.reload(); return false;"><ion-icon name="refresh-outline"></ion-icon></a>
+      <div class="tooltip-container">
+        <div class="tooltip-message">change the text</div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
